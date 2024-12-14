@@ -17,3 +17,13 @@ You'll work with a dataset containing one observation per tag per year, includin
 |`tag`|A word or phrase that describes the topic of the question, such as the programming language|
 |`num_questions`|The number of questions with a certain tag in that year|
 |`year_total`|The total number of questions asked in that year|
+
+
+
+Discover the trends in the popularity of programming languages by answering the following questions:
+# Q1
+What percentage of questions are tagged with R per year? Save the result in a data frame, r_over_time, containing five columns: year, tag, num_questions, year_total, and percentage (proportion of R questions).
+# Q2
+What was the percentage of R questions for 2020? Save your answer as a numeric variable, r_percentage, expressed as a decimal.
+# Q3
+Identify the five programming language tags with the highest total number of questions asked between 2015 and 2020 (inclusive). Save the tag names as a character vector, highest_tags.
