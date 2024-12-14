@@ -1,5 +1,6 @@
-# R-practice-project-from-datacamp
+# R-practice-project-from-DataCamp
 
+Project name: Analyze the Popularity of Programming Languages
 ---
 
 How can you determine which programming languages and technologies are most widely used? Which languages are gaining or losing popularity, helping you decide where to focus your efforts?
