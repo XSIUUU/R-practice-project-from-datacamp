@@ -35,3 +35,13 @@ highest_tags <- data %>% filter(year>=2015 & year<=2020) %>%
 	pull(tag)
 highest_tags <- highest_tags[1:5]
 highest_tags
+
+# revise  of Q3
+highest_tags <- data %>%
+  filter(year >= 2015 & year <= 2020) %>%     
+  group_by(tag) %>%                          
+  summarise(total_questions = sum(num_questions), .groups = "drop") %>% 
+  slice_max(total_questions, n = 5) %>%      
+  pull(tag)                                  
+
+print(highest_tags)
